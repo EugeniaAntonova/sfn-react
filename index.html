@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="decor.css">
+</head>
+
+<body>
+    <section class="section hero">
+        <div class="dark-tire"></div>
+        <div class="light-tire"></div>
+        <div class="inner-container">
+            <div class="top">
+                <img src="img/logo.svg" alt class="hero-logo" width="80">
+                <h2 class="section-title">
+                    Выиграйте кроссовер
+                </h2>
+            </div>
+            <p class="descr">
+                Участвуйте в&nbsp;розыгрыше
+                <b>26&nbsp;апреля</b>
+            </p>
+            <div class="decor">
+                <img class="car" src="img/car-1.png" alt="Возможная обстановка комнаты" srcset="img/car-1x2.png 2x"
+                    width="800">
+            </div>
+            <a href="#more" class="btn-link btn-link_white">подробнее</a>
+        </div>
+    </section>
+    <section class="section participation" id="more">
+        <div class="dark-tire dark-tire_1"></div>
+        <div class="dark-tire dark-tire_2"></div>
+        <div class="inner-container">
+            <div style="position: relative; z-index: 2;">
+                <h2 class="section-title">
+                    Как <br>принять <br>участие?
+                </h2>
+                <input type="radio" name="tab-trigger" id="online" class="tab-trigger" checked>
+                <input type="radio" name="tab-trigger" id="ground" class="tab-trigger">
+                <div class="triggers-wrapper">
+                    <label for="online" role="button" tabindex="0">Онлайн-билет</label>
+                    <label for="ground" role="button" tabindex="0">Бумажный билет</label>
+                </div>
+                <section class="tab tab_online" id="online-tab">
+                    <ul class="steps">
+                        <li>
+                            <h3 class="step-title ticket">Купите ЛотоНабор</h3>
+                            <p class="step-descr">Приобретите ЛотоНабор "Квартира"</p>
+                        </li>
+                        <li>
+                            <h3 class="step-title video">Смотрите эфир</h3>
+                            <p class="step-descr">
+                                Следите за розыгрышем в прямом эфире <a href="https://www.youtube.com/c/sattyzhuldyz"
+                                    target="_blank" class="inline-link"><b>YouTube</b></a> канала 14 апреля в 10:00
+                            </p>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-link btn-link_invert">купить лотонабор</a>
+                </section>
+                <section class="tab tab_land" id="ground-tab">
+                    <ul class="steps">
+                        <li>
+                            <h3 class="step-title ticket">Купите билет</h3>
+                            <p class="step-descr">Приобретите билет "TeleBingo" c пятью лотерейными комбинациями</p>
+                        </li>
+                        <li>
+                            <h3 class="step-title register">Зарегистрируйтесь</h3>
+                            <p class="step-descr">
+                                Зарегистрируйте номер билета на странице акции
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="step-title video">Смотрите эфир</h3>
+                            <p class="step-descr">
+                                Следите за розыгрышем в прямом эфире <a class="inline-link"
+                                    href="https://www.youtube.com/c/sattyzhuldyz" target="_blank"><b>YouTube</b></a>
+                                канала
+                                14 апреля в 10:00
+                            </p>
+                        </li>
+                    </ul>
+                    <article class="info-item">
+                        <h3 class="info-title location">Где купить билет?</h3>
+                        <p class="step-descr info-descr">Купить бумажные билеты лотереи вы можете в точках продаж. С
+                            картой
+                            расположения наших точек продаж можно ознакомиться на специальной странице.</p>
+                        <a href="#" class="btn-link btn-link_white">карта точек продаж</a>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section class="section check">
+        <div class="dark-tire"></div>
+        <div class="inner-container">
+            <div class="check-table">
+                <div class="form-wrapper">
+                    <div class="iframe-wrapper">
+                        <iframe
+                            src="https://module.sz.kz/promo-registration-form/?lang=ru&phone=&email=&date_birth=&terminal_id=site&FIO=&sex=&promo_type=2&promo_id=101"
+                            allowtransparency="true" class="regis" width="100%" height="1000" loading="lazy"
+                            frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+                <div class="rules">
+                    <img src="img/logo.svg" alt class="rules-logo" width="120">
+                    <p class="descr">
+                        Пользователи, купившие билеты онлайн, автоматически становятся участниками розыгрыша автомобиля.
+                        Регистрация не&nbsp;требуется.
+                    </p>
+                    <p class="descr">
+                        26&nbsp;апреля 2024 года в&nbsp;эфире YouTube канала пройдет розыгрыш кроссовера среди всех
+                        билетов, прошедших регистрацию в&nbsp;соответствии с&nbsp;условиями.
+                    </p>
+                </div>
+                <div class="next-drawling">
+                    <h3>Участники розыгрыша 26.04.2024</h3>
+                    <p class="descr">
+                        Обновление списка осуществляется 1&nbsp;раз в&nbsp;сутки
+                        в&nbsp;07:00
+                    </p>
+                    <a href="https://www.szhuldyz.kz/szreports/Site_list_6-49.pdf" class="btn-link decorated"
+                        target="_blank">
+                        <svg viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.149 1H5a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h7a4 4 0 0 0 4-4V6.136M10.149 1 16 6.136M10.149 1l.07 2.229a3 3 0 0 0 2.998 2.907H16"
+                                stroke="#141414" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                        <span class="title">скачать список</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section faq">
+        <div class="yellow-tire"></div>
+        <div class="inner-container">
+            <h2 class="section-title">
+                Часто <br>задаваемые <br>вопросы
+            </h2>
+            <ul class="faq-list">
+                <li>
+                    <input type="checkbox" name="faq-trigger" id="faq-1">
+                    <label for="faq-1" role="button" tabindex="0">
+                        <span class="title">Как проводится розыгрыш кроссовера?</span>
+                        <div class="decor">
+                            <span class="door"></span>
+                        </div>
+                    </label>
+                    <div class="faq-panel">
+                        <p>
+                            Каждому зарегистрированному билету, купленному на&nbsp;терминале или онлайн, будет присвоен
+                            &laquo;Номер для розыгрыша на&nbsp;ТВ&raquo;, по&nbsp;которому будет проводиться розыгрыш
+                            кроссовера.
+                        </p>
+                        <p>
+                            Количество зарегистрированных билетов на&nbsp;один номер мобильного телефона&nbsp;&mdash;
+                            не&nbsp;ограничено.
+                        </p>
+                        <p>Для билетов, купленных онлайн:<br>
+                            В&nbsp;розыгрыше 26&nbsp;апреля, примут участие все ЛотоНаборы LOTO 6/49, купленные
+                            и&nbsp;прошедшие регистрацию с&nbsp;29&nbsp;марта 00:00 часов до&nbsp;26&nbsp;апреля 21:45.
+                            Билеты купленные после указанного времени, примут участие в&nbsp;следующем розыгрыше,
+                            который состоится 31&nbsp;мая.</p>
+                        <p>Для билетов, купленных в&nbsp;точках продаж:<br>
+                            В&nbsp;розыгрыше 26&nbsp;апреля, примут участие все билеты LOTO 6/49, купленные
+                            и&nbsp;прошедшие регистрацию с&nbsp;29&nbsp;марта 00:00 часов до&nbsp;25&nbsp;апреля 23:59.
+                            Билеты купленные и&nbsp;зарегистрированные после указанного времени, примут участие
+                            в&nbsp;следующем розыгрыше, который состоится 31&nbsp;мая.</p>
+                        <p>
+                            26&nbsp;апреля в&nbsp;прямом эфире нашего <a href="https://www.youtube.com/@SattyZhuldyz"
+                                target="_blank">YouTube</a> канала пройдет
+                            розыгрыш кроссовера среди всех билетов, прошедших регистрацию и&nbsp;соответствующих
+                            условиям
+                            розыгрыша.
+                        </p>
+                        <p>
+                            Если вы&nbsp;купили ЛотоНабор (6&nbsp;билетов) <a
+                                href="/game?gameid=1079&amp;ispack=true">LOTO 6/49</a>&nbsp;онлайн,
+                            то&nbsp;вы&nbsp;автоматически становитесь участником розыгрыша кроссовера без дополнительной
+                            регистрации.
+                        </p>
+                        <p>
+                            Определение победителя будет осуществляться посредством генератора случайных чисел.
+                        </p>
+                        <p>
+                            В&nbsp;случае, если выигрышный билет в&nbsp;силу тех или иных причин (утеря и&nbsp;т.п.)
+                            не&nbsp;может быть представлен победителем, то&nbsp;выигрыш кроссовера, будет разыгран
+                            по&nbsp;усмотрению оператора лотереи.
+                        </p>
+                        <p>
+                            Победитель в&nbsp;целях публичного размещения информации обязуется без взимания платы
+                            подписать с&nbsp;Оператором лотереи согласие на&nbsp;сбор и&nbsp;обработку персональных
+                            данных и&nbsp;иной информации о&nbsp;Победителе: на&nbsp;создание, публикацию,
+                            воспроизведение и&nbsp;распространение
+                            ФИО, изображения победителя (в&nbsp;т.ч. фотографии), изобразительного произведения
+                            (в&nbsp;т.ч. видео) и&nbsp;иных документов, записей (в&nbsp;т.ч. интервью), произведений,
+                            на&nbsp;которых изображен Победитель. Согласие Победителя будет дано по
+                            форме и&nbsp;на&nbsp;условиях (в&nbsp;т.ч. срок и&nbsp;цели согласия, место и&nbsp;способ
+                            опубликования и&nbsp;распространения) Оператора.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="faq-trigger" id="faq-2">
+                    <label for="faq-2" role="button" tabindex="0">
+                        <span class="title">Как получить выигрыш?</span>
+                        <div class="decor">
+                            <span class="door"></span>
+                        </div>
+                    </label>
+                    <div class="faq-panel">
+                        <ol class="panel-list">
+                            <li>
+                                Согласно Условиям проведения тиражной лотереи &laquo;LOTO 6/49&raquo;, срок
+                                востребования выигрыша составляет 180 дней со&nbsp;дня проведения розыгрыша.
+                            </li>
+                            <li>
+                                <div>
+                                    Для получения выигрыша Победителю необходимо предъявить:
+                                    <ul>
+                                        <li>
+                                            оригинал лотерейного билета (только для бумажных билетов), который был
+                                            зарегистрирован к&nbsp;участию в&nbsp;розыгрыше автомобиля;
+                                        </li>
+                                        <li>
+                                            удостоверение личности;
+                                        </li>
+                                        <li>
+                                            заполнить все документы.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                Оплата ИПН осуществляется в&nbsp;соответствии с&nbsp;налоговым
+                                законодательством&nbsp;РК: для резидентов&nbsp;РК в&nbsp;размере&nbsp;10%
+                                от&nbsp;суммы/стоимости выигрыша, для нерезидентов&nbsp;РК в&nbsp;размере&nbsp;20%
+                                от&nbsp;суммы/стоимости выигрыша
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="faq-trigger" id="faq-3">
+                    <label for="faq-3" role="button" tabindex="0">
+                        <span class="title">Как увеличить шансы на&nbsp;выигрыш квартиры?</span>
+                        <div class="decor">
+                            <span class="door"></span>
+                        </div>
+                    </label>
+                    <div class="faq-panel">
+                        <p>
+                            Количество зарегистрированных билетов на&nbsp;один номер
+                            мобильного телефона – не&nbsp;ограничено!
+                        </p>
+                        <p>
+                            Больше зарегистрированных билетов&nbsp;– больше шансов
+                            на&nbsp;победу!
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section winners">
+        <div class="dark-tire dark-tire_1"></div>
+        <div class="dark-tire dark-tire_2"></div>
+        <div class="inner-container">
+            <div class="content-wrapper">
+                <h2 class="section-title">
+                    Предыдущий розыгрыш
+                </h2>
+                <div class="archive__container">
+                    <iframe class="video" width="560" height="315"
+                        src="https://www.youtube.com/embed/0HI7Dcj2uQs?si=qVB8K31ZMB3M9hvl" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen=""></iframe>
+                    <h3>Розыгрыш квартиры</h3>
+                    <p class="winner">
+                        Номер выигрышного билета <br>
+                        №447714
+                    </p>
+                    <div class="archive__container-bottom">
+                        <a class="inline-link decorated" target="_blank"
+                            href="https://static.sz.kz/szreports/Site_list_telebingo-110224.pdf">
+                            <span class="decor">
+                                <svg viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.149 1H5a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h7a4 4 0 0 0 4-4V6.136M10.149 1 16 6.136M10.149 1l.07 2.229a3 3 0 0 0 2.998 2.907H16"
+                                        stroke="#141414" stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="title">Список участников розыгрыша</span>
+                        </a>
+                        <p class="date">29.03.2024</p>
+                    </div>
+                </div>
+                <div class="slider">
+                    <input type="radio" name="slider-page" id="page_1" checked>
+                    <input type="radio" name="slider-page" id="page_2">
+                    <input type="radio" name="slider-page" id="page_3">
+                    <input type="radio" name="slider-page" id="page_4">
+                    <div class="slides">
+                        <div class="row header" role="row">
+                            <span class="cell" role="cell">Дата</span>
+                            <span class="cell" role="cell">Номер</span>
+                            <span class="cell" role="cell">Город</span>
+                            <span class="cell" role="cell">Тираж</span>
+                        </div>
+                        <div class="dragger">
+                            <ul class="winners-inner">
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">28.02.2024</span>
+                                    <span class="cell num" role="cell">№386066</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=9qysMPuCAzc&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">31.01.2024</span>
+                                    <span class="cell num" role="cell">№283498</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=8wpdwilLe9Y"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">29.12.2023</span>
+                                    <span class="cell num" role="cell">№184941</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=Bys9z-7VQvk"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">15.12.2023</span>
+                                    <span class="cell num" role="cell">№24036075</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=rZyJCe-1sig&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">29.11.2023</span>
+                                    <span class="cell num" role="cell">№24011368</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=UsAYN-mX9iU&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">27.10.2023</span>
+                                    <span class="cell num" role="cell">№23961154</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=J1XwMz968cM&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">29.09.2023</span>
+                                    <span class="cell num" role="cell">№23913606</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=nwUorVXmXyo&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">30.08.2023</span>
+                                    <span class="cell num" role="cell">№23830245</span>
+                                    <span class="cell city" role="cell">Астана</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=LP3uIVjs7EM&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">27.10.2023</span>
+                                    <span class="cell num" role="cell">№23961154</span>
+                                    <span class="cell city" role="cell">Астана</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=pWXSu8HwBTU&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">28.06.2023</span>
+                                    <span class="cell num" role="cell">№23694799</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=pWXSu8HwBTU&t=284s"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">26.04.2023</span>
+                                    <span class="cell num" role="cell">№23560656</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=e6U3tc02-ME&ab_channel=SattyZhuldyz"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">22.02.2023</span>
+                                    <span class="cell num" role="cell">№23464852</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=kXPOdWMg5-s"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">30.12.2022</span>
+                                    <span class="cell num" role="cell">№23286826</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=mReTWI583Jw"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">21.12.2022</span>
+                                    <span class="cell num" role="cell">№23220288</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=8cFC9r-wAD0"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">26.10.2022</span>
+                                    <span class="cell num" role="cell">№23125462</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=Nvkzb7UHckE"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">29.08.2022</span>
+                                    <span class="cell num" role="cell">№23066198</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=asN6yCiyKMQ"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">22.06.2022</span>
+                                    <span class="cell num" role="cell">№22957128</span>
+                                    <span class="cell city" role="cell">Талдыкорган</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=TVbi9JgRf4s"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">16.04.2022</span>
+                                    <span class="cell num" role="cell">№22829114</span>
+                                    <span class="cell city" role="cell">Уральск</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=Tl_k44AfNfY&t=773s"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">02.02.2022</span>
+                                    <span class="cell num" role="cell">№22737463</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=xAlcT13Yzpk"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">27.11.2021</span>
+                                    <span class="cell num" role="cell">№22665144</span>
+                                    <span class="cell city" role="cell">Алматы</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=COezOq8hXRE"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">02.10.2021</span>
+                                    <span class="cell num" role="cell">№22482983</span>
+                                    <span class="cell city" role="cell">Онлайн</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=u5T919lOZU0"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">07.08.2021</span>
+                                    <span class="cell num" role="cell">№21905373</span>
+                                    <span class="cell city" role="cell">Туркестан</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=7TrBzVLGFHg"></a></span>
+                                </li>
+                                <li class="row row-content">
+                                    <span class="cell date" role="cell">12.06.2021</span>
+                                    <span class="cell num" role="cell">№20354399</span>
+                                    <span class="cell city" role="cell">Астана</span>
+                                    <span class="cell link" role="cell"><a
+                                            href="https://www.youtube.com/watch?v=bNIMf1RCVBs"></a></span>
+                                </li>
+                            </ul>                    
+                        </div>
+                    </div>
+                    <div id="controls-left">
+                        <label for="page_1"></label>
+                        <label for="page_2"></label>
+                        <label for="page_3"></label>
+                        <label for="page_4"></label>
+                    </div>
+                    <div id="controls-right">
+                        <label for="page_1"></label>
+                        <label for="page_2"></label>
+                        <label for="page_3"></label>
+                        <label for="page_4"></label>
+                    </div>
+                    <div id="bullets">
+                        <label for="page_1"></label>
+                        <label for="page_2"></label>
+                        <label for="page_3"></label>
+                        <label for="page_4"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
