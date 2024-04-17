@@ -1,6 +1,4 @@
-/* =============================================================================================================== HERO */
 .hero {
-    padding-top: 101px;
     background-color: #141414;
     position: relative;
 }
@@ -14,7 +12,7 @@
     right: 0;
     width: 200%;
     height: 50px;
-    background-image: linear-gradient(90deg, #141414 7%, transparent, #141414), url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+    background-image: linear-gradient(90deg, #141414 7%, transparent, #141414), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
     background-position-x: left, 79px;
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-size: cover, 47px 52px, 47px 52px;
@@ -29,7 +27,7 @@
     right: 0;
     width: 200%;
     height: 50px;
-    background-image: linear-gradient(90deg, #141414 12%, transparent, #141414 79%), url(img/tire-print-light.svg), url(img/tire-print-light.svg);
+    background-image: linear-gradient(90deg, #141414 12%, transparent, #141414 79%), url('https://static.sz.kz/landings/649New2024/img/tire-print-light.svg'), url('https://static.sz.kz/landings/649New2024/img/tire-print-light.svg');
     background-position-x: left, 79px;
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-size: cover, 47px 52px, 47px 52px;
@@ -78,7 +76,7 @@
     right: 0;
     width: 200%;
     height: 50px;
-    background-image: url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+    background-image: url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
     background-position-x: left, 79px;
     background-repeat: repeat-x, repeat-x;
     background-size: 47px 52px, 47px 52px;
@@ -86,7 +84,7 @@
 
 .participation .dark-tire_1 {
     transform: rotate(310deg);
-    bottom: 70%;
+    bottom: 45%;
     left: -55%;
 }
 
@@ -120,7 +118,7 @@
 }
 
 .triggers-wrapper label {
-    padding: 12px 15px;
+    padding: 12px 9px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -199,19 +197,19 @@ ul.steps>li:not(:last-child) {
 }
 
 .step-title.ticket::before {
-    background-image: url('img/ticket.svg');
+    background-image: url('https://static.sz.kz/landings/649New2024/img/ticket.svg');
 }
 
 .step-title.video::before {
-    background-image: url('img/youtube.svg');
+    background-image: url('https://static.sz.kz/landings/649New2024/img/youtube.svg');
 }
 
 .step-title.register::before {
-    background-image: url('img/phone.svg');
+    background-image: url('https://static.sz.kz/landings/649New2024/img/phone.svg');
 }
 
 .info-title.location::before {
-    background-image: url('img/maps.svg');
+    background-image: url('https://static.sz.kz/landings/649New2024/img/maps.svg');
 }
 
 ul.steps li .step-descr:not(:last-of-type) {
@@ -237,7 +235,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     right: 0;
     width: 200%;
     height: 50px;
-    background-image: linear-gradient(90deg, #141414 7%, transparent, #141414), url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+    background-image: linear-gradient(90deg, #141414 7%, transparent, #141414), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
     background-position-x: left, 79px;
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-size: cover, 47px 52px, 47px 52px;
@@ -259,13 +257,14 @@ ul.steps li .step-descr:not(:last-of-type) {
     z-index: 2;
 }
 
-.check-table>div {
+.check-table>div:not(.form-wrapper) {
     padding: 1em;
     border-radius: 15px;
 }
 
 .form-wrapper {
-    padding: 0;
+    padding: 2px 9px 2px 0;
+    border-radius: 15px;
     background-color: #fff;
 }
 
@@ -318,8 +317,10 @@ ul.steps li .step-descr:not(:last-of-type) {
 }
 
 .btn-link.decorated>svg {
-    width: 20px;
+    min-width: 18px;
+    width: 18px;
 }
+
 
 .btn-link.decorated {
     margin: 1.2em 0 0 0;
@@ -343,7 +344,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     right: 0;
     width: 200%;
     height: 50px;
-    background-image: linear-gradient(90deg, #141414 7%, transparent), url(img/tire-print-yellow.svg), url(img/tire-print-yellow.svg);
+    background-image: linear-gradient(90deg, #141414 7%, transparent), url('https://static.sz.kz/landings/649New2024/img/tire-print-yellow.svg'), url('https://static.sz.kz/landings/649New2024/img/tire-print-yellow.svg');
     background-position-x: left, 79px;
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-size: cover, 47px 52px, 47px 52px;
@@ -396,7 +397,7 @@ ul.steps li .step-descr:not(:last-of-type) {
 }
 
 .faq-list label>.title {
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .faq-list label>.decor {
@@ -520,7 +521,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     right: 0;
     width: 200%;
     height: 50px;
-    background-image: url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+    background-image: url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
     background-position-x: left, 79px;
     background-repeat: repeat-x, repeat-x;
     background-size: 47px 52px, 47px 52px;
@@ -575,15 +576,21 @@ ul.steps li .step-descr:not(:last-of-type) {
 }
 
 .winners .inline-link.decorated svg {
-    width: 20px;
+    display: block;
+    min-width: 12px;
+    width: 12px;
 }
 
 .winners .inline-link.decorated {
     display: flex;
     align-items: center;
     gap: 0.5ch;
+    font-size: 0.75em;
 }
-
+.winners .archive__container-bottom .date {
+    font-size: 0.7em;
+    font-weight: 700;
+}
 .winners-inner {
     padding: 0;
     margin: 0;
@@ -778,7 +785,7 @@ ul.steps li .step-descr:not(:last-of-type) {
         right: 0;
         width: 200%;
         height: 87px;
-        background-image: linear-gradient(90deg, #141414 4%, transparent, #141414 79%), url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+        background-image: linear-gradient(90deg, #141414 4%, transparent, #141414 79%), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
         background-position-x: left, 101px;
         background-repeat: no-repeat, repeat-x, repeat-x;
         background-size: cover, 76px 87px, 76px 87px;
@@ -791,7 +798,7 @@ ul.steps li .step-descr:not(:last-of-type) {
         right: 0;
         width: 200%;
         height: 87px;
-        background-image: linear-gradient(90deg, #141414 12%, transparent, #141414 79%), url(img/tire-print-light.svg), url(img/tire-print-light.svg);
+        background-image: linear-gradient(90deg, #141414 12%, transparent, #141414 79%), url('https://static.sz.kz/landings/649New2024/img/tire-print-light.svg'), url('https://static.sz.kz/landings/649New2024/img/tire-print-light.svg');
         background-position-x: left, 101px;
         background-repeat: no-repeat, repeat-x, repeat-x;
         background-size: cover, 76px 87px, 76px 87px;
@@ -800,7 +807,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     /* ====================================== participation */
     .participation .dark-tire {
         height: 87px;
-        background-image: url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+        background-image: url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
         background-position-x: left, 101px;
         background-repeat: repeat-x, repeat-x;
         background-size: 76px 87px, 76px 87px;
@@ -847,7 +854,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     .check .dark-tire {
         transform: rotate(18deg);
         height: 87px;
-        background-image: llinear-gradient(90deg, #141414 17%, transparent, #141414 92%), url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+        background-image: linear-gradient(90deg, #141414 17%, transparent, #141414 92%), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
         background-position-x: left, 101px;
         background-repeat: no-repeat, repeat-x, repeat-x;
         background-size: cover, 76px 87px, 76px 87px;
@@ -866,13 +873,13 @@ ul.steps li .step-descr:not(:last-of-type) {
     }
     /* ======================================================== faq */
     .faq .yellow-tire {
-        transform: rotate(156deg);
+        transform: rotate(165deg);
         bottom: 65%;
         left: -27%;
         right: 0;
         width: 200%;
         height: 87px;
-        background-image: linear-gradient(90deg, #141414 12%, transparent), url(img/tire-print-yellow.svg), url(img/tire-print-yellow.svg);
+        background-image: linear-gradient(90deg, #141414 12%, transparent), url('https://static.sz.kz/landings/649New2024/img/tire-print-yellow.svg'), url('https://static.sz.kz/landings/649New2024/img/tire-print-yellow.svg');
         background-position-x: left, 101px;
         background-repeat: no-repeat, repeat-x, repeat-x;
         background-size: cover, 76px 87px, 76px 87px;
@@ -881,7 +888,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     /* ====================================================== winners */
     .winners .dark-tire {
         height: 87px;
-        background-image: url(img/tipe-print-dark.svg), url(img/tipe-print-dark.svg);
+        background-image: url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg'), url('https://static.sz.kz/landings/649New2024/img/tipe-print-dark.svg');
         background-position-x: left, 101px;
         background-repeat: repeat-x, repeat-x;
         background-size: 76px 87px, 76px 87px;
