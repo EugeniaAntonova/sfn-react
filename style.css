@@ -95,6 +95,7 @@
     bottom: 35%;
     left: -54%;
 }
+
 .participation .inner-container {
     position: relative;
     z-index: 2;
@@ -121,7 +122,7 @@
 
 .triggers-wrapper label {
     padding: 12px 15px;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -228,6 +229,7 @@ ul.steps li .step-descr:not(:last-of-type) {
 .check {
     position: relative;
 }
+
 .check .dark-tire {
     position: absolute;
     transform: rotate(149deg);
@@ -242,6 +244,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-size: cover, 47px 52px, 47px 52px;
 }
+
 .check .inner-container {
     position: relative;
     z-index: 2;
@@ -259,14 +262,15 @@ ul.steps li .step-descr:not(:last-of-type) {
     z-index: 2;
 }
 
-.check-table>div {
+.check-table>div:not(.form-wrapper) {
     padding: 1em;
     border-radius: 15px;
 }
 
 .form-wrapper {
-    padding: 0;
+    padding: 2px 0.5em 2px;
     background-color: #fff;
+    border-radius: 15px;
 }
 
 .iframe-wrapper {
@@ -317,16 +321,12 @@ ul.steps li .step-descr:not(:last-of-type) {
     line-height: 110%;
 }
 
-.btn-link.decorated>svg {
-    width: 20px;
-}
-
 .btn-link.decorated {
     margin: 1.2em 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5em;
+    gap: 0.5ch;
 }
 
 /* ======================================== FAQ */
@@ -334,6 +334,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     margin-top: -2px;
     position: relative;
 }
+
 .faq .yellow-tire {
     position: absolute;
     transform: rotate(138deg);
@@ -537,6 +538,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     bottom: 54%;
     left: -42%;
 }
+
 .winners .inner-container {
     position: relative;
     z-index: 2;
@@ -572,16 +574,19 @@ ul.steps li .step-descr:not(:last-of-type) {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.winners .inline-link.decorated svg {
-    width: 20px;
+    line-height: 1;
 }
 
 .winners .inline-link.decorated {
+    font-size: .75em;
     display: flex;
     align-items: center;
     gap: 0.5ch;
+}
+
+.winners .archive__container-bottom .date {
+    font-size: .75em;
+    font-weight: 600;
 }
 
 .winners-inner {
@@ -852,6 +857,7 @@ ul.steps li .step-descr:not(:last-of-type) {
         background-repeat: no-repeat, repeat-x, repeat-x;
         background-size: cover, 76px 87px, 76px 87px;
     }
+
     .rules-logo {
         display: block;
     }
@@ -864,6 +870,7 @@ ul.steps li .step-descr:not(:last-of-type) {
     .next-drawling {
         grid-column: span 2;
     }
+
     /* ======================================================== faq */
     .faq .yellow-tire {
         transform: rotate(156deg);
